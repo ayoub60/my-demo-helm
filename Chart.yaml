@@ -1,0 +1,6 @@
+apiVersion: v2
+name: mydemo
+description: Chart Helm pour l'application mydemo
+type: application
+version: 0.1.0        # version du chart
+appVersion: 0.0.1-SNAPSHOT     # version de l'app (ex. Maven version)
