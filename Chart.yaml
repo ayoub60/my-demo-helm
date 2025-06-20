@@ -1,5 +1,5 @@
 apiVersion: v2
-name: mydemo
+name: mydemo-helm
 description: Chart Helm pour l'application mydemo
 type: application
 version: 0.1.0        # version du chart
