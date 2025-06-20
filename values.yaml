@@ -1,12 +1,9 @@
 replicaCount: 1
-
 image:
   repository: docker.io/ayoub6000/mydemo
   tag: 0.0.1-SNAPSHOT
   pullPolicy: IfNotPresent
-
 service:
   type: ClusterIP
   port: 8080
-
 resources: {}
