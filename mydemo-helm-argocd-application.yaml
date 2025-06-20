@@ -3,6 +3,9 @@ kind: Application
 metadata:
   name: mydemo-helm-app
   namespace: argocd      # namespace où Argo CD est installé
+  annotations:
+    argocd-image-updater.argoproj.io/image-list: docker.io/ayoub6000/mydemo
+    argocd-image-updater.argoproj.io/write-back-method: git
 spec:
   project: default
 
